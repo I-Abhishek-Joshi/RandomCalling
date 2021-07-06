@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Logout"
+        android:title="Logout"
+        />
+    <item
+        android:id="@+id/state"
+        android:title="Change State">
+        <menu>
+            <item
+                android:id="@+id/Active"
+                android:title="getActive"
+                />
+            <item
+                android:id="@+id/notActive"
+                android:title="getInActive"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/edit_name"
+        android:title="Update User Name"/>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete Account"/>
+</menu>

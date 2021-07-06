@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RandomCalling</string>
+    <string name="one">Select Your Problem</string>
+    <string name="two">Physics</string>
+    <string name="three">Chemistry</string>
+    <string name="four">Mathematics</string>
+    <string name="five">Engineering Drawing</string>
+
+    <string-array name="Problems">
+        <item>@string/one</item>
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+    </string-array>
+</resources>
